@@ -1,0 +1,56 @@
+/* Write your CSS here */
+
+.repository {
+  margin-right: 25px;
+  margin-bottom: 25px;
+  padding: 25px;
+  background-color: #f8f8ff;
+  border-radius: 10px;
+  width: 250px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .repository {
+    width: 220px;
+  }
+}
+
+.repository-image {
+  width: 50px;
+  height: auto;
+}
+
+.repository-heading {
+  font-family: Roboto;
+  font-size: 15px;
+}
+
+.count-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 180px;
+}
+
+@media screen and (min-width: 768px) {
+  .count-container {
+    display: flex;
+    align-items: center;
+    width: 100px;
+  }
+}
+
+.icon {
+  height: 25px;
+  width: auto;
+  margin-right: 15px;
+}
+
+.count {
+  font-family: Roboto;
+}

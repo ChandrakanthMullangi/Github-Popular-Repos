@@ -1,0 +1,53 @@
+/* Write your CSS here */
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.heading {
+  font-family: Lobster;
+}
+
+.language-filters-list {
+  list-style-type: none;
+  display: flex;
+}
+
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+.failure-image {
+  height: 350px;
+  width: auto;
+}
+
+.failure-heading {
+  font-family: Roboto;
+  font-size: 50px;
+}
+
+.repository-item {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+}
+
+@media screen and (min-width: 768px) {
+  .repository-item {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+}
